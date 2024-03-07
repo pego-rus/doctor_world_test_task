@@ -1,0 +1,70 @@
+.minimizedCard {
+    border: 1px solid #01457A;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 0px 25px 0px #8EA0AD59;
+    max-width: 1290px;
+}
+.minimizedCardContent {
+    display: flex;
+    gap: 29px;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 194.5px;
+    margin-left: 39px;
+    margin-right: 52px;
+}
+.minimizedCardContent img {
+    align-self: start;
+    margin-top: 40px;
+}
+.titleBox {
+    display: flex;
+    width: 295px;
+    height: 114.5px;
+    clip-path: polygon(0% 0%, 86.5% 0%, 100% 43%, 86% 100%, 0% 100%);
+    background: linear-gradient(265.25deg, #01457A 0%, #43A7C7 43.23%, #BCD77E 74.48%, rgba(188, 215, 126, 0) 100%);
+}
+.title {
+    width: 292px;
+    height: 111.5px;
+    margin-right: 3px;
+    clip-path: polygon(0% 0%, 86% 0%, 100% 44%, 86% 100%, 0% 100%);
+    background: linear-gradient(270deg, #D8EFFF 0%, #FFFFFF 100%);
+}
+.minimizedCardImg {
+    position: absolute;
+    top: -24.13px; right: -24.13px;
+    cursor: pointer;
+}
+.titleText {
+    padding-top: 6px;
+    display: flex;
+    max-width: 295px;
+    height: 114.5px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+}
+.titleText strong {
+    letter-spacing: 1.3px;
+}
+.textContent {
+    align-self: start;
+    margin-top: 42px;
+    max-width: 767px;
+    position: relative;
+}
+.textContent p {
+    max-width: 747.09px;
+}
+.textContent::after {
+    display: block;
+    content: '';
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+    width: 767px;
+    min-height: 40px;
+    top: 59px;
+}

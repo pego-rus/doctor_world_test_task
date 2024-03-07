@@ -1,0 +1,28 @@
+.contentBlock {
+    padding: 30px 19px 30px 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+    align-items: center;
+    box-shadow: 0px 0px 25px 0px #8EA0AD59;
+    background: linear-gradient(90deg, #FBFDFF 0%, #D8EFFF 100.86%);
+    border-radius: 20px;
+}
+.textContentCenter {
+    margin-top: 7px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.textContentStart {
+    margin: 3px 24px 0px 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.69px;
+    text-align: start;
+}
