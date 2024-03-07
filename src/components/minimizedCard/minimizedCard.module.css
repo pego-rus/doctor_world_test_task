@@ -10,6 +10,7 @@
     gap: 29px;
     justify-content: flex-start;
     align-items: center;
+    height: fit-content;
     min-height: 194.5px;
     margin-left: 39px;
     margin-right: 52px;
@@ -21,13 +22,15 @@
 .titleBox {
     display: flex;
     width: 295px;
-    height: 114.5px;
+    height: fit-content;
+    min-height: 114.5px;
     clip-path: polygon(0% 0%, 86.5% 0%, 100% 43%, 86% 100%, 0% 100%);
     background: linear-gradient(265.25deg, #01457A 0%, #43A7C7 43.23%, #BCD77E 74.48%, rgba(188, 215, 126, 0) 100%);
 }
 .title {
     width: 292px;
-    height: 111.5px;
+    min-height: 111.5px;
+    height: fit-content;
     margin-right: 3px;
     clip-path: polygon(0% 0%, 86% 0%, 100% 44%, 86% 100%, 0% 100%);
     background: linear-gradient(270deg, #D8EFFF 0%, #FFFFFF 100%);
@@ -41,7 +44,8 @@
     padding-top: 6px;
     display: flex;
     max-width: 295px;
-    height: 114.5px;
+    min-height: 114.5px;
+    height: fit-content;
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
@@ -55,16 +59,22 @@
     margin-top: 42px;
     max-width: 767px;
     position: relative;
+    height: 99px;
+    overflow: hidden;
 }
 .textContent p {
     max-width: 747.09px;
+    text-overflow: clip;
+    overflow: hidden;
+    height: 99px;
 }
 .textContent::after {
     display: block;
     content: '';
     position: absolute;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
-    width: 767px;
+    width: min(60vw, 767px);
     min-height: 40px;
+    height: fit-content;
     top: 59px;
 }

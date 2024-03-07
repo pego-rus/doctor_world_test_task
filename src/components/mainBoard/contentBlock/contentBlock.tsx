@@ -7,8 +7,8 @@ export interface ContentBlockProps {
     blockNumber: number;
     picture: string;
     text: string;
-    height: string;
-    width: string;
+    // height: string;
+    // width: string;
 }
 
 export type contentType = {
@@ -30,7 +30,7 @@ export default function ContentBlock (props: ContentBlockProps) {
     }
 
     return(
-        <div className={styles.contentBlock} style={{'width': props.width, 'height': props.height}}>
+        <div className={props.blockNumber < 4 ? styles.contentBlockTop : styles.contentBlockBottom}>
             {props.picture ? <Image src={props.picture}
                             width={178}
                             height={145}

@@ -14,7 +14,6 @@ interface MinimizedCardProps {
 export default function MinimizedCard (props: MinimizedCardProps) {
 
     const {state, setState} = useContext(OpenCardContext);
-    console.log(state)
 
     return(
         <div className={styles.minimizedCard} style={{'height':props.height}}>

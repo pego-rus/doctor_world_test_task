@@ -1,9 +1,25 @@
 .title {
     padding-top: 4px;
+    max-width: 21.46vw;
     text-align: center;
     font-family: "Noto Sans", sans-serif;
     font-size: 31px;
     font-weight: 500;
     line-height: 38px;
     letter-spacing: 0em;
+}
+@media screen and (max-width: 1580px) {
+    .title {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .title {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .title {
+        font-size: 14px;
+    }
 }

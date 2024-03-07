@@ -1,13 +1,29 @@
-.contentBlock {
-    padding: 30px 19px 30px 19px;
+.contentBlockTop{
+    padding: 30px clamp(1px, 19px, 19px) 30px clamp(1px, 19px, 19px);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 12px;
+    gap: clamp(6px, 12px, 12px);
     align-items: center;
     box-shadow: 0px 0px 25px 0px #8EA0AD59;
     background: linear-gradient(90deg, #FBFDFF 0%, #D8EFFF 100.86%);
     border-radius: 20px;
+    width: min(22vw, 410px);
+    min-height: 608px;
+}
+.contentBlockBottom {
+    text-align: start;
+    padding: 30px clamp(1px, 19px, 19px) 30px clamp(1px, 19px, 19px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: clamp(6px, 12px, 12px);
+    align-items: center;
+    box-shadow: 0px 0px 25px 0px #8EA0AD59;
+    background: linear-gradient(90deg, #FBFDFF 0%, #D8EFFF 100.86%);
+    border-radius: 20px;
+    width: min(40vw, 630px);
+    min-height: 400px;
 }
 .textContentCenter {
     margin-top: 7px;
@@ -25,4 +41,27 @@
     font-weight: 400;
     line-height: 32.69px;
     text-align: start;
+}
+@media screen and (max-width: 1580px) {
+    .textContentCenter {
+        font-size: 18px;
+    }
+    .textContentStart {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .textContentCenter {
+        font-size: 14px;
+    }
+    .textContentStart {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .textContentCenter {
+        font-size: 10px;
+    }
+    .textContentStart {
+        font-size: 18px;}
 }
