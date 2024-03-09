@@ -25,7 +25,7 @@ export default function MinimizedCardTitle ({cardNum}: Props)  {
     )
 }
 
-MinimizedCardTitle.Title = function (props: TitleProps) {
+MinimizedCardTitle.Title = function MinCardTitle (props: TitleProps) {
     return(
         <div className={styles.titleText}>
             <p>{props.textBefore}<strong>{props.textBold}</strong>{props.textAfter}</p>

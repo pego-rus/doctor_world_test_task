@@ -25,7 +25,7 @@ export default function MaximizedCard ({numCard}: MaximizedCardProps) {
     )
 }
 
-MaximizedCard.First = function () {
+MaximizedCard.First = function MaxCardFirst() {
 
     const {state, setState} = useContext(OpenCardContext)
 
@@ -48,7 +48,7 @@ MaximizedCard.First = function () {
     )
 }
 
-MaximizedCard.Second = function () {
+MaximizedCard.Second = function MaxCardSecond () {
 
     const {state, setState} = useContext(OpenCardContext)
     const { first, second, third } = maximizedCardTextData
@@ -76,7 +76,7 @@ MaximizedCard.Second = function () {
     )
 }
 
-MaximizedCard.CardContent= function (props: MaximizedCardContentProps) {
+MaximizedCard.CardContent = function MaxCardContent (props: MaximizedCardContentProps) {
     return(
         <div className={styles.flexCardContainer}>
             <Image src={props.imgSrc}
