@@ -8,6 +8,14 @@ interface MaximizedCardProps {
     numCard: 'First' | 'Second'
 }
 
+interface MaximizedCardContentProps {
+    imgWidth: number,
+    imgSrc: string;
+    textFirst: string;
+    textSecond: string;
+    textThird: string
+}
+
 export default function MaximizedCard ({numCard}: MaximizedCardProps) {
     return(
         createElement(
@@ -66,14 +74,6 @@ MaximizedCard.Second = function () {
             </div>
         </div>
     )
-}
-
-interface MaximizedCardContentProps {
-    imgWidth: number,
-    imgSrc: string;
-    textFirst: string;
-    textSecond: string;
-    textThird: string
 }
 
 MaximizedCard.CardContent= function (props: MaximizedCardContentProps) {

@@ -8,17 +8,17 @@
     line-height: 38px;
     letter-spacing: 0em;
 }
-@media screen and (max-width: 1580px) {
+@media (max-width: 1580px) {
     .title {
         font-size: 22px;
     }
 }
-@media screen and (max-width: 1150px) {
+@media (max-width: 1150px) {
     .title {
         font-size: 18px;
     }
 }
-@media screen and (max-width: 920px) {
+@media (max-width: 920px) {
     .title {
         font-size: 14px;
     }

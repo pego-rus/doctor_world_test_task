@@ -1,5 +1,5 @@
 .maximizedCard {
-    width: clamp(600px, 93vw, 1290px);
+    width: clamp(600px, 86vw, 1290px);
     min-height: 749px;
     border: 1px solid #01457A;
     border-radius: 20px;

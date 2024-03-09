@@ -1,5 +1,3 @@
-'use client'
-
 import { ReactNode } from 'react'
 import { TitleProps } from '../mainBoard/title/title'
 import styles from './minimizedCard.module.css'

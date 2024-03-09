@@ -17,6 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={noto_sans.className}>
+        <header>
+          <img src="/Vector 45.png" alt=" " />
+          <img src="/Vector 46.png" alt=" " />
+          <img src="/Vector 47.png" alt=" " />
+        </header>
         <main>{children}</main>
       </body>
     </html>

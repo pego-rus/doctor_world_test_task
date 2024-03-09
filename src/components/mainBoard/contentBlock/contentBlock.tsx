@@ -7,8 +7,6 @@ export interface ContentBlockProps {
     blockNumber: number;
     picture: string;
     text: string;
-    // height: string;
-    // width: string;
 }
 
 export type contentType = {

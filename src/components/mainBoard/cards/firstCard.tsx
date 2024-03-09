@@ -16,7 +16,12 @@ export default function FirstCard () {
                         <MaximizedCard numCard='First'/>
                     </>
                     : <>
-                        <MinimizedCard height='194.5px' picture='/Group 2.png' title={<MinimizedCardTitle cardNum={1} />} text={minimizedCardText.first} icon='/Group 118.png'/>
+                        <MinimizedCard height='194.5px' 
+                                        picture='/Group 2.png' 
+                                        title={<MinimizedCardTitle 
+                                        cardNum={1} />} 
+                                        text={minimizedCardText.first} 
+                                        icon='/Group 118.png'/>
                     </>}
         </>
     )
