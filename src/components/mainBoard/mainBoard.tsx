@@ -41,11 +41,11 @@ export default function MainBoard () {
                         <ContentBlock picture={'/Group 7-2.png'} text={textThree} blockNumber={3}/>
                     </div>
                     <div className={styles.arrows}>
-                        <Image src='/Group 8.png'
+                        <Image className={styles.image} src='/Group 8.png'
                             width={425}
                             height={54}
                             alt='arrow'/>
-                        <Image src='/Group 8.png'
+                        <Image className={styles.image} src='/Group 8.png'
                             width={425}
                             height={54}
                             alt='arrow'/>

@@ -81,7 +81,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: clamp(0px, 30px, 30px);
+    gap: clamp(0px, 1.4vw, 30px);
     margin-top: 5px;
     margin-bottom: 20px;
+}
+.image {
+    width: clamp(100px, 22vw, 425px);
 }

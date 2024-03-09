@@ -31,7 +31,7 @@ export default function ContentBlock (props: ContentBlockProps) {
 
     return(
         <div className={props.blockNumber < 4 ? styles.contentBlockTop : styles.contentBlockBottom}>
-            {props.picture ? <Image src={props.picture}
+            {props.picture ? <Image className='image' src={props.picture}
                             width={178}
                             height={145}
                             alt='inhaler'/> 

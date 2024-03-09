@@ -1,5 +1,5 @@
 .maximizedCard {
-    width: 1290px;
+    width: clamp(600px, 93vw, 1290px);
     min-height: 749px;
     border: 1px solid #01457A;
     border-radius: 20px;
@@ -8,8 +8,11 @@
     display: flex;
     flex-direction: column;
 }
-.maximizedCard img {
+.image {
+    align-self: center;
     margin-top: 40px;
+    width: clamp(600px, 75vw, 1211px);
+    height: clamp(194px, 24.1vw, 389px);
 }
 .maximizedCard p:first-child {
     max-width: 1150px;
@@ -25,7 +28,7 @@
 }
 .flexContainer {
     display: flex;
-    gap: 54px;
+    gap: clamp(10px, 2.6vw, 54px);
 }
 .flexCardContainer {
     width: 367px;
@@ -42,18 +45,18 @@
     width: 343;
 }
 .item:nth-child(2) {
-    font-size: 96px;
+    font-size: clamp(65px, 5vw, 96px);
     font-weight: 700;
     line-height: 130.75px;
 }
 .item:nth-child(3) {
-    font-size: 26px;
+    font-size: clamp(18px, 1.4vw, 26px);
     font-weight: 400;
     line-height: 35.41px;
 }
 .item:nth-child(4) {
     margin-top: 15px;
-    font-size: 18px;
+    font-size: clamp(14px, 0.9vw, 18px);
     font-weight: 300;
     line-height: 24.52px;
     max-width: 278px;
